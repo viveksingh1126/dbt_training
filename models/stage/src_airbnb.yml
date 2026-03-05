@@ -1,0 +1,7 @@
+sources:
+  - name: airbnb
+    database: airbnb
+    schema: raw
+    tables:
+      - name: raw_hosts
+      

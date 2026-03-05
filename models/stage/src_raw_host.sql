@@ -7,7 +7,7 @@
 }}
 with cte_raw_host as 
 (
-    select * from raw_host
+    select * from {{ source('airbnb', 'raw_hosts') }}
 )
 select 
         ID , 

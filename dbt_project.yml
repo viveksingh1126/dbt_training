@@ -41,6 +41,7 @@ models:
     +pre-hook:
       - use warehouse COMPUTE_WH    
     airbnb:
+      
       +materialized: view
     stage:
       +materialized: view 
